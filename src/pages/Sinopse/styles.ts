@@ -1,7 +1,5 @@
 import styled from "styled-components"
 
-export const Gestilo=styled.section`
+export const Sinestilo=styled.section`
 
 `
-
-

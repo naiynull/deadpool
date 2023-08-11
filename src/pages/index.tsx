@@ -1,0 +1,5 @@
+export { Home as PageHome } from "./Home"
+export { Curiosidade as PageCuriosidade } from "./Curiosidade"
+export { Geral as PageGeral } from "./Geral"
+export { Sinopse as PageSinopse } from "./Sinopse"
+export { Layout as PageLayout } from "./Layout"
