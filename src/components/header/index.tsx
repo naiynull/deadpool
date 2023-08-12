@@ -1,12 +1,13 @@
 import * as S from "./styles"
-
+import logo from "../../assets/logo.png"
 
 export function Header() {
   return (
+   
     <S.Header>
-      <picture>
-       
-      </picture>
+    <picture>
+      <img src={logo} alt="Logo" />
+    </picture>
       <S.NavBar>
         <ul>
           <li>
@@ -24,5 +25,6 @@ export function Header() {
         </ul>
       </S.NavBar>
     </S.Header>
+
   )
 }
