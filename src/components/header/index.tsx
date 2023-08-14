@@ -14,7 +14,7 @@ export function Header() {
             <a href="/home ">Home</a>
           </li>
           <li>
-            <a href="/Curiosidade">Curiosidade</a>
+            <a href="/personagem">Personagem</a>
           </li>
           <li>
             <a href="/Sinopse">Sinopse</a>

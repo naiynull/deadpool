@@ -3,11 +3,12 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Header = styled.header`
   /* Cabeçalho */
-  background-color: none;
+  /* background-color: rgba(17, 17, 17, 0.00); */
+  background-color: #000000;
   border-bottom: none;
   display: flex;
   height: 3rem;
-  width: 70%;
+  width: 100%;
   picture {
     margin-left: 0.5rem;
     padding: 0.5rem;
@@ -35,13 +36,13 @@ export const Header = styled.header`
     color: ${colors.textoheader}
   }
   nav ul li:hover{
-  background-color: ${colors.texto};
-  height: 2px;
+  text-decoration: underline;
+  color:${colors.detalhedelinha}
 }
 `
 
 export const NavBar = styled.nav`
   /* Navegação */
 
-
+background-color: none;
 `

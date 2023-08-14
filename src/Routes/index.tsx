@@ -5,7 +5,7 @@ export function RouteSoftware() {
   return (
     <Routes>
       <Route path="/" element={<PageLayout />}>
-        <Route path="curiosidade" element={< PageCuriosidade />} />
+        <Route path="personagem" element={< PageCuriosidade />} />
         <Route path="home" element={<PageHome />} />
         <Route path="Sinopse" element={<PageSinopse />} />
         <Route path="Geral" element={<PageGeral />} />
