@@ -4,7 +4,7 @@ import { colors } from "../../styles/GlobalStyle"
 export const Header = styled.header`
   /* Cabeçalho */
   /* background-color: rgba(17, 17, 17, 0.00); */
-  background-color: #000000;
+  background-color:#000;
   border-bottom: none;
   display: flex;
   height: 3rem;
@@ -15,7 +15,7 @@ export const Header = styled.header`
   }
   nav{
     
-    width: 90%;
+    width: 70%;
     padding-left:2rem;
   }
   img{

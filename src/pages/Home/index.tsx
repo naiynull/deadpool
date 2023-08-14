@@ -6,11 +6,14 @@ export function Home() {
   return (
 
     <S.Inicial>
+      <S.Texs>
+   </S.Texs>
       <S.Igm>
     <div>
     <img id="ug" src={central} alt="deadpool"/>
    </div>
    </S.Igm> 
+   
     </S.Inicial>
    
   )
