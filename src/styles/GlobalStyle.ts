@@ -11,10 +11,11 @@ export const GlobalStyle = createGlobalStyle`
    
   }
  
-  body{
-    background-color:#EADECF;
-  }
-
+ body{
+  min-height: 100vh;
+  border-radius: 5px;
+background: linear-gradient(0deg, #1A2841 0%, #0B1322 100%, #080A0E 100%);
+ }
 `
  
 export const colors = {

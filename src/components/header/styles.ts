@@ -4,7 +4,7 @@ import { colors } from "../../styles/GlobalStyle"
 export const Header = styled.header`
   /* Cabeçalho */
   /* background-color: rgba(17, 17, 17, 0.00); */
-  background-color:#000;
+  background-color:none;
   border-bottom: none;
   display: flex;
   height: 3rem;
@@ -19,7 +19,7 @@ export const Header = styled.header`
     padding-left:2rem;
   }
   img{
-    width:60px;
+    width:250px;
     
   }
   nav ul{
@@ -33,11 +33,13 @@ export const Header = styled.header`
   }
   nav ul a{
     text-decoration:none;
-    color: ${colors.textoheader}
+    color: ${colors.detalhedelinha}
   }
   nav ul li:hover{
   text-decoration: underline;
-  color:${colors.detalhedelinha}
+  color:${colors.texto}
+       width: 6rem;
+       
 }
 `
 

@@ -1,19 +1,13 @@
 import * as S from "./styles"
-import central from "../../assets/ee.png"
-
+import spm from "../../assets/spider-principal 1.png"
 
 export function Home() {
   return (
 
     <S.Inicial>
-      <S.Texs>
-   </S.Texs>
       <S.Igm>
-    <div>
-    <img id="ug" src={central} alt="deadpool"/>
-   </div>
-   </S.Igm> 
-   
+      <img src= {spm} alt="spider-man"/>
+      </S.Igm>
     </S.Inicial>
    
   )

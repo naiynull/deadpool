@@ -6,7 +6,7 @@ export function Header() {
    
     <S.Header>
     <picture>
-      <img src={logo} alt="Logo" />
+       <img src={logo} alt="Logo" />
     </picture>
       <S.NavBar>
         <ul>
