@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
-
+import arina from "../../assets/arina.gif"
 export const Header = styled.header`
   /* Cabeçalho */
   /* background-color: rgba(17, 17, 17, 0.00); */
@@ -38,9 +38,13 @@ export const Header = styled.header`
   nav ul li:hover{
   text-decoration: underline;
   color:${colors.texto}
-       width: 6rem;
+  
        
 }
+#ari{
+width: 40px;
+}
+
 `
 
 export const NavBar = styled.nav`

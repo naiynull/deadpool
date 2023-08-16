@@ -3,9 +3,10 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Cestilo=styled.section`
 
-div{
-    height: 60rem;
-    padding-top: 30rem;
+video{
+    padding-top: 6rem;
+   width: 500px;
+   padding-left: 3rem;
 }
 section{
     
